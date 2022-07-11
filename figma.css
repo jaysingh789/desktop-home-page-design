@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap');
+body{
+  background: black;
+  padding: 0;
+  margin: 0;
+  overflow-x:hidden;
+}
+.navbar-brand{
+  margin:10px;
+  margin-right:50px;
+  background: url(dummylogo.png);
+  width: 221.26px;
+  height: 79.29px;
+
+}
+.nav-item{
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 27px;
+}
+.nav-item-active{
+ border-bottom:2px solid yellow;
+}
+
+
+#women{
+  font-size:60px;
+  text-transform: uppercase;
+  font-weight:100;
+  line-height:60px;
+  margin-bottom:10px;
+}
+#style-wear{
+  font-size:80px;
+  text-transform: uppercase;
+  font-weight:bold;
+  color: #2B2B2B;
+  opacity:.8;
+
+
+}
+.stars i{
+color:#FFD600;
+cursor:pointer;
+}
+.star-circle{
+  border:1px solid blue;
+  border-radius:100%;
+  padding:5px;
+}
+
+.center-img{
+  position:absolute;
+  z-index:10;
+  right:-30%;
+  height:100%;
+
+}
+.center-img img{
+  height:100%;
+  z-index:100;
+}
+.vector-icons{
+  padding:20px 40px;
+  display:flex;
+  justify-content:right;
+  align-items:right;
+  margin:15px;
+}
+.vector-icons a{
+  margin-right:20px;
+}
+.vector-icons a img{
+  height:20px;
+}
+.count-list{
+  display: flex;
+  flex-direction: column;
+  width:100%;
+  justify-content:center;
+  align-items: center;
+}
+.list{
+width:50%;
+display: flex;
+justify-content:center;
+align-items: center;
+grid-column-gap:20px;
+}
+.count{
+  color:white;
+  font-weight:bold;
+  width:100%;
+  text-align:right;
+}
+.count-1{
+  font-size:125px;
+  color:black;
+
+}
+.count-2{
+font-size:75px;
+}
+.count-3{
+font-size:50px;
+}
+.count-4{
+font-size:25px;
+}
+.dot img{
+  width:15px;
+  margin-left:10px;
+
+}
